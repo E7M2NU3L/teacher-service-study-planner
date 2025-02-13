@@ -1,0 +1,40 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables and secrets
+.env
+*.env
+config.json
+
+# Ignore virtual environment
+venv/
+.virtualenv/
+
+# Ignore database files
+*.sqlite3
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.bak
+*.tmp
+
+# Ignore static and media files (optional, if served externally)
+staticfiles/
+media/
+
+# Ignore Docker-related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore node_modules if using frontend in Django
+node_modules/
