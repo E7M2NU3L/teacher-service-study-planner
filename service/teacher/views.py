@@ -1,9 +1,3 @@
-from langchain_core.prompts import ChatPromptTemplate
-from langchain.chains import create_retrieval_chain
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.chains.combine_documents import create_stuff_documents_chain
-
-from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
